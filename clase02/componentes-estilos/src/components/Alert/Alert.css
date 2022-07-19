@@ -1,0 +1,24 @@
+.alert-wrapper {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.alert-wrapper > h2 {
+    margin: 0 0 10px 0;
+}
+
+.alert-wrapper.error {
+    border: #ae1111 solid 1px;
+}
+
+.error h2 {
+    color: #ae1111;
+}
+
+.alert-wrapper.success {
+    border: #11ae1e solid 1px;
+}
+
+.success > h2 {
+    color: #11ae1e;
+}
